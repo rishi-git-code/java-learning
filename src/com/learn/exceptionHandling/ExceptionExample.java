@@ -17,8 +17,8 @@ public class ExceptionExample {
 		int b = 0;
 		int unchecked = uncheckedException(a,b);
 		System.out.println(unchecked);
-//		int checked = checkedException();
-//		System.out.println(checked);
+		int checked = checkedException();
+		System.out.println(checked);
 	}
 
 	private static int uncheckedException(int a, int b) {
