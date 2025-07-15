@@ -32,7 +32,7 @@ public class ExceptionHandlingWithFinally {
 
 		while (true) {
 			try {
-				res = 10 / n;
+				res = a / n;
 			} catch (Exception e) {
 				break;
 			}finally {
