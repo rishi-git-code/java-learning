@@ -32,9 +32,9 @@ public class SupplierExample {
 		// connection()
 		System.out.println("Testing lazy connection.....");
 		Supplier<DatabaseConnection> connectionSupplier = () -> new DatabaseConnection();
-		
+
 		System.out.println("Database connection not created yet.");
-		
+
 		DatabaseConnection connection = connectionSupplier.get();
 		connection.connect();
 
