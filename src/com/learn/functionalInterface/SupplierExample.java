@@ -25,11 +25,9 @@ public class SupplierExample {
 		};
 
 		System.out.println("Before calling get()");
-		System.out.println(stringSupplier.get()); // Lazy inititiation is here meaning the object is created only when
-													// it's needed.
+		System.out.println(stringSupplier.get()); // Lazy inititiation is here meaning the object is created only when it's needed.
 
-		// Lazy loading -> when object creation is costly, like creating database
-		// connection()
+		// Lazy loading -> when object creation is costly, like creating database connection
 		System.out.println("Testing lazy connection.....");
 		Supplier<DatabaseConnection> connectionSupplier = () -> new DatabaseConnection();
 
