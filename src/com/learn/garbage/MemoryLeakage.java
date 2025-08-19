@@ -21,6 +21,10 @@ import java.util.List;
  * 3. timeout the session when not needed
  * 4. Avoid using static object, if needed set static object to null after use
  * 5. always close the session
+ * 
+ * 
+ * Note: To see memory uses
+ * jdk -> bin -> open jvisualvm.exe
  */
 
 public class MemoryLeakage {
