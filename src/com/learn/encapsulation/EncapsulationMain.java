@@ -1,5 +1,11 @@
 package com.learn.encapsulation;
 
+/*
+ * To achieve encapsulation, we have to use access modifier, setter-getter
+ * 
+ * 
+ */
+
 public class EncapsulationMain {
 
 	public static void main(String[] args) {

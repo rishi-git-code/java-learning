@@ -7,6 +7,5 @@ public class Cars extends Vehicle{  //Car is a vehicle
 	public void ignition() {
 		System.out.println("Ignition on");
 		engine.starts();	//has-A relation
-	}
-	
+	}	
 }
